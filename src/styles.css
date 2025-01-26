@@ -1,0 +1,22 @@
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+}
+
+.bg-sidebar {
+    background-color: #f3f4f6;
+}
+.bg-bacup {
+    background-color: #f3f4f6;
+}
+
+.bg-darkmode {
+    background-color: #343a40;
+}
+
+.color-text{
+    color: #4A4A4A;
+}
+
+.bg-text:hover{
+    background-color: #FFFF0080;
+}
