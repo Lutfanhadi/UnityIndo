@@ -16,7 +16,7 @@
   </head>
   <body class="eb-garamond bg-sidebar">
     <nav class="border-b-2 sticky top-0 z-20 bg-white drop-shadow-md">
-      <div class="flex items-center justify-between mx-28 py-6">
+      <div class="flex items-center justify-between mx-[20px] md:mx-20 lg:mx-28 py-6">
         <div class="flex gap-2 items-center">
           <img class="w-[45px]" src="../img/icon-logo.png" alt="logo">
           <h2 class="font-bold text-2xl text-yellow-400">UnityIndo</h2>
@@ -31,11 +31,13 @@
           </div>
         </a>
       </div>
+
+      
     </nav>
 
     <main>
-      <article class="flex justify-between mx-28 mt-8">
-        <div class="w-[700px] bg-white">
+      <article class="md:flex lg:flex justify-between md:mx-20 lg:mx-28 mt-8">
+        <div class="md:w-[430px] lg:w-[700px] bg-white">
           <div class="text-center py-[30px]">
             <h3 class="text-[20px]">Galery Budaya</h3>
             <h1 class="font-semibold text-[40px] mb-[20px]">Papua Barat</h1>
@@ -122,7 +124,7 @@
           </div>
         </div>
 
-        <div class="w-[300px] bg-white h-[2150px]">
+        <div class="md:w-[200px] lg:w-[300px] bg-white md:h-[2200px] lg:h-[2150px] mt-[60px] md:mt-0 lg:mt-0">
           <div class="border-b-2 border-b-slate-600 p-4">
             <h1 class="text-[20px] text-center">Kategori Daerah</h1>
           </div>
@@ -167,17 +169,18 @@
           
         </div>
       </article>
+
     </main>
     <footer class="bg-yellow-400 mt-[50px]">
         <div class="flex justify-between items-center mx-10 py-[10px]">
             <div>
-                <h1>&copy;2025 UnityIndo. All rights reserved.</h1>
+                <h1 class="text-[12px] md:text-[20px] lg:text-[20px] font-bold">&copy;2025 UnityIndo. All rights reserved.</h1>
             </div>
             <div>
-            <h1 class="text-[20px] mb-[5px]">Connect with us</h1>
+            <h1 class="text-[12px] md:text-[20px] lg:text-[20px] mb-[5px]">Connect with us</h1>
             <div class="flex gap-1">
               <svg
-                class="w-8"
+                class="w-4 md:w-8 lg:w-8"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -188,7 +191,7 @@
               </svg>
 
               <svg
-                class="w-8"
+                class="w-4 md:w-8 lg:w-8"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -199,7 +202,7 @@
               </svg>
 
               <svg
-                class="w-8"
+                class="w-4 md:w-8 lg:w-8"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -211,7 +214,6 @@
             </div>
           </div>
         </div>
-        
     </footer>
   </body>
 </html>
