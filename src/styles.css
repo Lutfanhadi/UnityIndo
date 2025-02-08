@@ -21,3 +21,11 @@
 .bg-text:hover{
     background-color: #FFFF0080;
 }
+
+.bg-darkmode-primary{
+    background-color: #242629;
+}
+
+.bg-darkmode-secondary{
+    background-color: #26282e;
+}
